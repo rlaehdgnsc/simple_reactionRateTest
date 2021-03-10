@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>reaction rate</title>
+    <style>
+        #screen{
+            user-select: none;
+            width:150px;
+            height:150px;
+            text-align: center;
+        }
+        #screen.waiting{
+            background: aqua;
+        }
+        #screen.ready{
+            background: red;
+            color:white;
+        }
+        #screen.now{
+            background: greenyellow;
+        }
+    </style>
+</head>
+<body>
+    <div id = "screen" class = 'waiting'>
+        Get ready for the start
+    </div>
+    <div id = "result"></div>
+    <script src = "reaction.js"></script>
+</body>
+</html>
